@@ -120,4 +120,4 @@ A `MaxTokenSize` value of 48,000 bytes should be sufficient for most implementat
 
   Previous versions of this article discussed values of up to 100,000 bytes for `MaxTokenSize`. However, we have found that versions of SMS Administrator have problems when the `MaxTokenSize` is 100,000 bytes or larger.
 
-  We have also identified that the IPSEC IKE protocol does not allow a security BLOB to become larger than 66,536 bytes, and it would also fail when `MaxTokenSize` is set to a larger value.
+  We have also identified that the IPSEC IKE protocol does not allow a security BLOB to become larger than 65,536 bytes, and it would also fail when `MaxTokenSize` is set to a larger value.
